@@ -27,5 +27,3 @@ RUN apt-get install -y \
 RUN apt-get install -y openjdk-$OPENJDK_VERSION-jre
 
 RUN dotnet tool install -g dotnet-sonarscanner
-
-RUN export PATH="$PATH:/root/.dotnet/tools"
